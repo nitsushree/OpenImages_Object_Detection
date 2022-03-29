@@ -14,7 +14,7 @@ Categories: 2 (person and car)
 Annotation format: COCO
 
 #### Data directory structure:
-data \n
+data
 |_ annotations
         |_ bbox-annotations.json
 |_ images
