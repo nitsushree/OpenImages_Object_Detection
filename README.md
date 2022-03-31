@@ -1,5 +1,7 @@
 # OpenImages_Object_Detection
 
+#### Requirements:
+detecto custom installation (pip install detecto)
 
 Problem Statement: To detect "Person" &amp; "Car" from the OpenImages dataset. 
 
@@ -12,6 +14,9 @@ Number of images: 2239
 Size: 750 MB (approx.)
 Categories: 2 (person and car)
 Annotation format: COCO
+
+Custom_Detecto works on either Pascal VOC format or on CSV annotations. 
+Convert COCO format to CSV (Code mentioned in the notebook)
 
 #### Data directory structure:
 data
@@ -28,8 +33,7 @@ data
         . Tensorboard integrated
         . GPU: configured
         
-#### Requirements:
-detecto custom installation (pip install detecto)
-
-#### 
+#### Inference:
+Function calculates: IoU
+Tensorboard activation to the directory to plot the events on localhost/jupyter notebook
 
