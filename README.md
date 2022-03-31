@@ -20,3 +20,16 @@ data
 |_ images
         |_ image_000000001.jpg
         |_ image_000000002.jpg
+
+#### Model: Custom Detecto Model
+        . Architecture: FasterR-CNN_Resnet50_fpn
+        . Optimizer: Can be choosen from torch module
+        . Learning Rate: can be customised
+        . Tensorboard integrated
+        . GPU: configured
+        
+#### Requirements:
+detecto custom installation (pip install detecto)
+
+#### 
+
