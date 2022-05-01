@@ -1,3 +1,12 @@
+#### Detecto model modification
+        . Architecture: fasterrcnn_resnet50_fpn, fasterrcnn_mobilenet_v3_large_fpn, fasterrcnn_mobilenet_v3_large_320_fpn
+        . Optimizer: Can be choosen from torch module [configured default as SGD]
+        . Learning Rate: can be customised
+        . Tensorboard integrated
+        . GPU: configured
+        . Loop over the model, optimizer, Learning rate and store models with specifications in respective folders.
+        
+
 # OpenImages_Object_Detection
 
 #### Requirements:
